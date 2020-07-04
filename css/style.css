@@ -77,7 +77,23 @@ body{
     transition: all .3s;
 }
 
-.article{
+.title-article{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 17px;
+}
+
+.title-article h2{
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.title-article p{
+    color: orangered;
+    font-size: 14px;
+}
+
+.article, .two-article{
     display: flex;
     flex-wrap: wrap;
 }
@@ -146,15 +162,107 @@ body{
 
 .article-rigth{
     flex: 1;
-    background-color: green;
     min-height: 250px;
 }
 
 .card-article{
-    height: 150px;
-    background-color: orangered;
+    height: 133px;
+    background: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.788)) ,url('../img/slide-3.jpg');
+    position: relative;
+    margin-bottom: 20px;
+
 }
 
+.card-article > div{
+    position: absolute;
+    bottom: 25px;
+    left: 12px;
+}
+
+.card-article > div span{
+    font-size: 10px;
+    padding: 6px;
+    background-color: orangered;
+    color: white;
+}
+
+.card-article > div p{
+    margin-top: 13px;
+    color: white;
+}
+
+.two-article_left{
+    flex: 1;
+    min-height: 250px;
+}
+
+.two-article_letf-illustration{
+    position: relative;
+    height: 190px;
+    background: linear-gradient(rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.788)) ,url('../img/slide-5.jpg');
+}
+
+.two-article_letf-illustration > div{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.two-article_letf-illustration > div span{
+    padding: 5px;
+    background-color: orangered;
+    font-size: 10px;
+    color: white;
+}
+
+.two-article_letf-illustration > div h4{
+    margin-top: 12px;
+    font-size: 22px;
+    color: white;
+}
+
+.two-article_letf-illustration > div p{
+    margin-top: 8px;
+    font-size: 8px;
+    color: white;
+    font-style: italic;
+}
+
+.two-article_letf-info{
+    height: 135px;
+    padding: 20px;
+    background-color: white;
+}
+
+.two-article_letf-info p{
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+
+.two-article_letf-info a{
+    color: orangered;
+}
+
+.two-article_rigth{
+    flex: 1;
+    height: 250px;
+    margin-left: 35px;
+}
+
+.article-card-two{
+    height: 100px;
+    background-color: white;
+    margin-bottom: 12px;
+    padding: 15px;
+}
+
+.article-card-two a{
+    color: orangered;
+}
+
+.article-card-two p{
+    margin-top: 12px;
+}
 
 
 .block-content_rigth{
