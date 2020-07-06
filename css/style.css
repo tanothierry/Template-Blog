@@ -27,6 +27,36 @@ body{
     width: 100%;
     background-color: white;
     margin-bottom: 30px;
+    padding: 15px;
+}
+
+.nav-logo img{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.navbar ul{
+    float: right;
+    clear: both;
+    margin-top: 5px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 8px 13px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.navbar ul li a:hover{
+    color: orangered;
+    transition: all .4s;
 }
 
 .block-content{
